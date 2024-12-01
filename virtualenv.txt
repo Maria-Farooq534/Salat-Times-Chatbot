@@ -1,0 +1,9 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+
+once create
+python -m venv .venv
+
+
+every time activate
+.venv/Scripts/activate
