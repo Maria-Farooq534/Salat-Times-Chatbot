@@ -79,7 +79,7 @@ def user_input(user_question):
     return response['output_text']
 
 # Input field for user's message
-user_prompt = st.chat_input("Ask a question from your files...")
+user_prompt = st.chat_input("Ask a question")
 
 if user_prompt:
     # Add user's message to chat and display it
